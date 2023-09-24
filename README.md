@@ -16,7 +16,7 @@ This is the repo for the customer side. I'm going to create an admin side for ap
 
 The app is divided into multiple microservices which may be overcomplication but it's an opportunity for me for investigating this type of architectural pattern.
 
-The app is divided into 3 microservices and an API gateway which includes the necessary loggin, authentication, authorization and any other services that are independant of any microservice.
+The app is divided into 3 microservices and an API gateway which includes the necessary logging, authentication, authorization and any other services that are independant of any microservice.
 
 The following image illustrates this design:
 
