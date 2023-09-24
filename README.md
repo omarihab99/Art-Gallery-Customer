@@ -22,7 +22,7 @@ The following image illustrates this design:
 
 ![Design](https://drive.google.com/uc?id=1Zj2ZTtdhFKbUv6UvCNT-th7iZQ-eib3s)
 
-As shown in the above image, the API gateway has services that act as middelwares and are meant to be "pluggable" in the API gateway which encourages the idea of isolation and separation of concerns.
+As shown in the above image, the API gateway has services that act as middlewares and are meant to be "pluggable" in the API gateway which encourages the idea of isolation and separation of concerns.
 
 For more about each microservice, head to its README file.
 
