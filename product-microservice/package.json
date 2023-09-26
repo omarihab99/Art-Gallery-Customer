@@ -1,10 +1,14 @@
 {
   "name": "product-microservice",
   "version": "1.0.0",
+  "prisma":{
+    "seed": "ts-node prisma/seed.ts"
+  },
   "description": "",
   "main": "src/app.js",
   "scripts": {
-    "start": "tsc -w && nodemon dist/app.js",
+    "compile": "tsc && node dist/src/app.js",
+    "dev": "./node_modules/nodemon/bin/nodemon.js -e ts  --exec \"npm run compile\"",
     "test": "jest"
   },
   "keywords": [],
