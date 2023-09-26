@@ -1,7 +1,7 @@
 
 # Art Gallery
 
-This is an e-commerce web application that I'm creating for in my learning journey. I created it as an opportunity for learning docker, microservice, message-oriented communication,...etc.
+This is an e-commerce web application **(under development)** that I'm creating for in my learning journey. I created it as an opportunity for learning docker, microservice, message-oriented communication,...etc.
 
 This is the repo for the customer side. I'm going to create an admin side for app management in another repo.
 
