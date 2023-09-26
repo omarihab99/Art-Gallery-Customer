@@ -3,6 +3,7 @@
 
 generator client {
   provider = "prisma-client-js"
+  binaryTargets = ["native","linux-arm64-openssl-3.0.x"]
 }
 
 datasource db {
@@ -18,9 +19,8 @@ model Product{
   name String
   price Float
   description String
-  createdAt DateTime
-  updatedAt DateTime
-  deletedAt DateTime
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
   image String
   category String
   stock Int 
