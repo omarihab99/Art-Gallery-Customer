@@ -1,0 +1,6 @@
+function isDataValid(){
+    
+}
+export{
+    isDataValid
+}
